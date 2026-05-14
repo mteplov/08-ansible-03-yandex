@@ -23,17 +23,17 @@
 Clickhouse и Lighthouse будут ставиться на отдельные ВМ, Vector на две другие ВМ.
 
 Запускаем ansible-lint
-
+![2](./1.png)
 Запускаем с ключем check. Ошибка поскольку пакеты, репозитории и т.д еще не донесены на хост.
-![1-2](./2.png)
+![2](./2.png)
 
 Запускаем с ключем diff.
-
+![3](./3.png)
 
 Повторный запуск с ключем diff для проверки индепотентности.
+![4](./4.png)
 
-
-[Playbook]
+[Playbook](https://github.com/mteplov/08-ansible-03-yandex/blob/main/playbook/playbook.md)
 
 ---
 
